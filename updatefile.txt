@@ -1,1 +1,5 @@
+git pull origin main --rebase
+# Resolve conflicts if they arise
+git add .
+git commit -m "Resolved merge conflicts"
 git push origin main
